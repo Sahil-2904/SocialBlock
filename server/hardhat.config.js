@@ -21,8 +21,6 @@ module.exports = {
   solidity: "0.8.4",
   networks: {
     googleCloudPlatforms: {
-      // url: "https://eth-sepolia.g.alchemy.com/v2/INW8tlo9AVMkYkIVa0-J8rWU6cbCGvrN",
-      // accounts: ["405127314faaa3cddd91e137bdb5ee67a8caf82b5bde54a7f8a97f765300ca9f"]
       url: process.env.GCP_URL,
       accounts: [process.env.ACCOUNT_PRIVATE_KEY],
     }
